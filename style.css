@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap');
+    body {
+    background-color: #c0a069;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+
+h1, h2, h3{
+    font-family: 'Press Start 2P', cursive;
+    color: #EAC100;
+    text-shadow: 3px 3px 5px gray;
+}
+
+header{
+    background-color:#224255;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px 100px;
+}
+
+.sections{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 100px;
+    gap: 30px;
+}
+
+section{
+    background-color: #FFFDE7;
+    height: auto;
+    border-radius: 15px;
+    padding: 60px ;
+}
+
+hr{
+    border-color: #d8d350;
+    height: 2px;
+    margin: 30px;
+}
+
+.navbar ul{ 
+    display: flex;
+    gap: 20px;
+}
+.navbar li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    height: 400px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button{
+    height: 50px;
+    width: 130px;
+    padding: 9px 4px;
+    border-radius: 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 600;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: #388E3C;
+}
+
+.update-discription{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: left;
+    gap: 20px;
+}
+
+.discription{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+#related-content .cards{
+    display: flex;
+    justify-content: start;
+}
+
+
+footer{
+    background-color: #224255;
+    height: 150px;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
