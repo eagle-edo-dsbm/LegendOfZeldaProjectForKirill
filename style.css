@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap');
 
 body {
-    background-color: #c0a069; /* фон кофе */
+    background-color: #c0a069;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -48,13 +48,12 @@ a{
     gap: 30px;
 }
 
-/* Секция “парит” по центру */
 section{
-    background-color: #FFFDE7; /* светлая секция */
+    background-color: #FFFDE7;
     border-radius: 15px;
     padding: 60px;
-    margin: 0 auto; /* центрирование */
-    max-width: 900px; /* максимальная ширина секции */
+    margin: 0 auto;
+    max-width: 900px;
     box-sizing: border-box;
 }
 
@@ -120,7 +119,6 @@ footer{
     padding: 20px 0;
 }
 
-/* Адаптив */
 @media (max-width: 768px){
     .header-inner, .footer-inner{
         flex-direction: column;
@@ -136,7 +134,7 @@ footer{
 
     section{
         padding: 40px 20px;
-        max-width: calc(100% - 40px); /* отступы по бокам на маленьких экранах */
+        max-width: calc(100% - 40px);
     }
 
     .cards{
