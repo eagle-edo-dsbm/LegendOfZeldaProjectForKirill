@@ -115,7 +115,7 @@ button:hover{
 footer{
     background-color: #224255;
     color: white;
-    text-align: center;
+    display: flex;
     padding: 20px 0;
 }
 
