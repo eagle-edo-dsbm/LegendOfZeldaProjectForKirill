@@ -149,13 +149,13 @@ footer{
     .header-inner, .footer-inner{
         flex-direction: column;
         height: auto;
-        gap: 10px;
         text-align: center;
     }
 
     .navbar ul{
         display: flex;
         flex-wrap: wrap;
+        gap: 5px;
     }
 
     section{
