@@ -154,8 +154,8 @@ footer{
 
     .navbar ul{
         display: flex;
+        justify-content: start;
         flex-wrap: wrap;
-        gap: 30px;
     }
 
     section{
