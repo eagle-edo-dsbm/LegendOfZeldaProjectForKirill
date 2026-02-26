@@ -35,7 +35,7 @@ header{
 .header-inner, .footer-inner{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 70px;
+    padding: 0 100px;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -151,11 +151,12 @@ footer{
         height: auto;
         text-align: center;
     }
-
+    
     .navbar ul{
         display: flex;
-        justify-content: start;
+        justify-content: space-between;
         flex-wrap: wrap;
+        min-width: 290px;
     }
 
     section{
